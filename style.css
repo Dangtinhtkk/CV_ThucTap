@@ -38,7 +38,7 @@ body {
     min-width: 200px;
     overflow: hidden;
     aspect-ratio: 1;
-    padding: 50px;
+    padding: 20px;
 }
 .container .top .imgBx .box img {
     border-radius: 50%;
