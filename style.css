@@ -246,13 +246,17 @@ p {
     background: #3590d2;
 }
 .item_left {
-    background: #ddd;
+    /* background: #ddd; */
 }
 .item_right {
     background: #fff;
     padding-right: 20px
 }
-
+@media screen and (max-width: 690px) {
+    .container .top {
+        display: block;
+    }
+}
 @media screen and (max-width: 815px) {
     .about .box {
         display: block
