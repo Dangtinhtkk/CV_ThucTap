@@ -263,6 +263,11 @@ p {
         justify-content: center;
     }
 }
+@media screen and (max-width: 470px) {
+    .container .top .profileText h3{
+        font-size: 1.7em;
+    }
+}
 @media screen and (max-width: 815px) {
     .about .box {
         display: block
